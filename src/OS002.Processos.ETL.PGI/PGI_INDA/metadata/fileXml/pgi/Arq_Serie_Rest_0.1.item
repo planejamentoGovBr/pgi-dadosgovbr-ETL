@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_yFhcw31PEeS-pMPTBcHrjw" name="repository.metadataFileXml" dataPackage="_yFhc0X1PEeS-pMPTBcHrjw" XmlFilePath="C:/temp/pgi/serie.xml" Encoding="UTF-8">
+    <schema xmi:id="_yFhcxH1PEeS-pMPTBcHrjw" LimitBoucle="20000" AbsoluteXPathQuery="/result/entry/fonte_provedora/orgao_primeiro_escalao/descricao">
+      <schemaTargets xmi:id="_yFhcxX1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../id" TagName="id_serie"/>
+      <schemaTargets xmi:id="_yFhcxn1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../nome_extendido" TagName="nome_serie"/>
+      <schemaTargets xmi:id="_yFhcx31PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../descricao" TagName="descricao_serie"/>
+      <schemaTargets xmi:id="_yFhcyH1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../data_atualizacao" TagName="data_atualizacao"/>
+      <schemaTargets xmi:id="_yFhcyX1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../fonte_gestora/descricao" TagName="fonte_gestora"/>
+      <schemaTargets xmi:id="_yFhcyn1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../fonte_gestora/nome" TagName="sg_fonte_gestora"/>
+      <schemaTargets xmi:id="_yFhcy31PEeS-pMPTBcHrjw" RelativeXPathQuery="../../descricao" TagName="fonte_provedora"/>
+      <schemaTargets xmi:id="_yFhczH1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../nome" TagName="sg_fonte_provedora"/>
+      <schemaTargets xmi:id="_yFhczX1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../grupo_informacao/nome" TagName="nome_grupo"/>
+      <schemaTargets xmi:id="_yFhczn1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../base_territorial/base_territorial" TagName="base_territorial"/>
+      <schemaTargets xmi:id="_yFhcz31PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../periodicidade/periodicidade" TagName="periodicidade"/>
+      <schemaTargets xmi:id="_yFhc0H1PEeS-pMPTBcHrjw" RelativeXPathQuery="../../../url_origem" TagName="url_origem"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yFhc0X1PEeS-pMPTBcHrjw" name="repository.metadataFileXml" dataManager="_yFhcw31PEeS-pMPTBcHrjw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yFhc0n1PEeS-pMPTBcHrjw" id="_oxVXgG9MEeS9p-2lS_XGWA" label="Arq_Serie_Rest">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc031PEeS-pMPTBcHrjw" label="id_serie" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc1H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc1X1PEeS-pMPTBcHrjw" label="nome_serie" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc1n1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc131PEeS-pMPTBcHrjw" label="descricao_serie" length="5000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc2H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc2X1PEeS-pMPTBcHrjw" label="data_atualizacao" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc2n1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc231PEeS-pMPTBcHrjw" label="fonte_gestora" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc3H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc3X1PEeS-pMPTBcHrjw" label="sg_fonte_gestora" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc3n1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc331PEeS-pMPTBcHrjw" label="fonte_provedora" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc4H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc4X1PEeS-pMPTBcHrjw" label="sg_fonte_provedora" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc4n1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc431PEeS-pMPTBcHrjw" label="nome_grupo" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc5H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc5X1PEeS-pMPTBcHrjw" label="base_territorial" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc5n1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc531PEeS-pMPTBcHrjw" label="periodicidade" length="1000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc6H1PEeS-pMPTBcHrjw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yFhc6X1PEeS-pMPTBcHrjw" label="url_origem" length="80" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_yFhc6n1PEeS-pMPTBcHrjw"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

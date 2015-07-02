@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_yIFBg31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yIFBhH1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yIFBhX1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yIFBhn1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yIFBh31PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yIFBiH1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yIFBiX1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yIFBin1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yIFBi31PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yIFBjH1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yIFBjX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yIFBjn1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="/entrada/pgi/"/>
+    <contextParameter xmi:id="_yIFBj31PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_yIFBkH1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="/entrada/pgi/series_xml/"/>
+    <contextParameter xmi:id="_yIFBkX1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="/entrada/pgi/series_json/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

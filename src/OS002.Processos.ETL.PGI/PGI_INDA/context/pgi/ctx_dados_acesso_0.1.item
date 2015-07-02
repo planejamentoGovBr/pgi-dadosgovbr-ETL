@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_yI0BU31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yI0BVH1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_yI0BVX1PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yI0BVn1PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yI0BV31PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yI0BWH1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yI0BWX1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;94a9e537-087d-4c39-8866-7ecebba66581&quot;"/>
+    <contextParameter xmi:id="_yI0BWn1PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yI0BW31PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yI0BXH1PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yI0BXX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yI0BXn1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_yI0BX31PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yI0BYH1PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yI0BYX1PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_yBvwA31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yBvwBH1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yBvwBX1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yBvwBn1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yBvwB31PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yBvwCH1PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="C:\temp\pgi\log\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yBvwCX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yBvwCn1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yBvwC31PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yBvwDH1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yBvwDX1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yBvwDn1PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="/processo_etl/log/pgi/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yBvwD31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yBvwEH1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="/entrada/pgi/"/>
+    <contextParameter xmi:id="_yBvwEX1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_yBvwEn1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" type="id_String" value="/entrada/pgi/series_xml/"/>
+    <contextParameter xmi:id="_yBvwE31PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" type="id_String" value="/entrada/pgi/series_json/"/>
+    <contextParameter xmi:id="_yBvwFH1PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="/processo_etl/log/pgi/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

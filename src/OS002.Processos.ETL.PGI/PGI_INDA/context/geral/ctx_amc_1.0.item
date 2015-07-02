@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_yFLeg31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yFLehH1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_yFLehX1PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yFLehn1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yFLeh31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yFLeiH1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yFLeiX1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" type="id_String" value="porta"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yFLein1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yFLei31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_yFLejH1PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yFLejX1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yFLejn1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yFLej31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yFLekH1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" type="id_String" value="porta"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yFLekX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yFLekn1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_yFLek31PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yFLelH1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yFLelX1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yFLeln1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yFLel31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" type="id_String" value="porta"/>
+  </talendfile:ContextType>
+</xmi:XMI>

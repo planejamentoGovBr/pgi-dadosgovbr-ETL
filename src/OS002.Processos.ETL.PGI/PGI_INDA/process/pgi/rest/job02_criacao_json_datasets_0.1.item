@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_yH0i031PEeS-pMPTBcHrjw" defaultContext="Producao">
+  <context xmi:id="_yH0i1H1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yH0i1X1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yH0i1n1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yH0i131PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yH0i2H1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yH0i2X1PEeS-pMPTBcHrjw" comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i2n1PEeS-pMPTBcHrjw" comment="" name="nome" prompt="nome?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i231PEeS-pMPTBcHrjw" comment="" name="resource" prompt="resource?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i3H1PEeS-pMPTBcHrjw" comment="" name="serie" prompt="serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i3X1PEeS-pMPTBcHrjw" comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i3n1PEeS-pMPTBcHrjw" comment="" name="tag_serie" prompt="tag_serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i331PEeS-pMPTBcHrjw" comment="" name="vernome" prompt="vernome?" promptNeeded="false" type="id_String" value="null"/>
+  </context>
+  <context xmi:id="_yH0i4H1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yH0i4X1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yH0i4n1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yH0i431PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yH0i5H1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+    <contextParameter xmi:id="_yH0i5X1PEeS-pMPTBcHrjw" comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i5n1PEeS-pMPTBcHrjw" comment="" name="nome" prompt="nome?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i531PEeS-pMPTBcHrjw" comment="" name="resource" prompt="resource?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i6H1PEeS-pMPTBcHrjw" comment="" name="serie" prompt="serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i6X1PEeS-pMPTBcHrjw" comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i6n1PEeS-pMPTBcHrjw" comment="" name="tag_serie" prompt="tag_serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i631PEeS-pMPTBcHrjw" comment="" name="vernome" prompt="vernome?" promptNeeded="false" type="id_String" value="null"/>
+  </context>
+  <context xmi:id="_yH0i7H1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yH0i7X1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/"/>
+    <contextParameter xmi:id="_yH0i7n1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value=""/>
+    <contextParameter xmi:id="_yH0i731PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/series_json/"/>
+    <contextParameter xmi:id="_yH0i8H1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/series_xml/"/>
+    <contextParameter xmi:id="_yH0i8X1PEeS-pMPTBcHrjw" comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i8n1PEeS-pMPTBcHrjw" comment="" name="nome" prompt="nome?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i831PEeS-pMPTBcHrjw" comment="" name="resource" prompt="resource?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i9H1PEeS-pMPTBcHrjw" comment="" name="serie" prompt="serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i9X1PEeS-pMPTBcHrjw" comment="" name="tag" prompt="tag?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i9n1PEeS-pMPTBcHrjw" comment="" name="tag_serie" prompt="tag_serie?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yH0i931PEeS-pMPTBcHrjw" comment="" name="vernome" prompt="vernome?" promptNeeded="false" type="id_String" value="null"/>
+  </context>
+  <parameters xmi:id="_yH0i-H1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yH0i-X1PEeS-pMPTBcHrjw" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_yH0i-n1PEeS-pMPTBcHrjw" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_yH0i-31PEeS-pMPTBcHrjw" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_yH0i_H1PEeS-pMPTBcHrjw" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_yH0i_X1PEeS-pMPTBcHrjw" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_yH0i_n1PEeS-pMPTBcHrjw" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_yH0i_31PEeS-pMPTBcHrjw" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_yH0jAH1PEeS-pMPTBcHrjw" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_yH0jAX1PEeS-pMPTBcHrjw" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yH0jAn1PEeS-pMPTBcHrjw" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yH0jA31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter xmi:id="_yH0jBH1PEeS-pMPTBcHrjw" field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter xmi:id="_yH0jBX1PEeS-pMPTBcHrjw" field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter xmi:id="_yH0jBn1PEeS-pMPTBcHrjw" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/Talend-Studio-r78327-V5.0.2/workspace_dev/.metadata&quot;"/>
+    <elementParameter xmi:id="_yH0jB31PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yH0jCH1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="DB_VERSION" value="ojdbc14-10g.jar"/>
+    <routinesParameter xmi:id="_yH0jCX1PEeS-pMPTBcHrjw" id="_M-s68FOpEeSRsKoJf7SB2A" name="DataOperation"/>
+    <routinesParameter xmi:id="_yH0jCn1PEeS-pMPTBcHrjw" id="_NAYV8FOpEeSRsKoJf7SB2A" name="Mathematical"/>
+    <routinesParameter xmi:id="_yH0jC31PEeS-pMPTBcHrjw" id="_NA_Z8FOpEeSRsKoJf7SB2A" name="Numeric"/>
+    <routinesParameter xmi:id="_yH0jDH1PEeS-pMPTBcHrjw" id="_NBrWcFOpEeSRsKoJf7SB2A" name="Relational"/>
+    <routinesParameter xmi:id="_yH0jDX1PEeS-pMPTBcHrjw" id="_NEk5cFOpEeSRsKoJf7SB2A" name="SQLike"/>
+    <routinesParameter xmi:id="_yH0jDn1PEeS-pMPTBcHrjw" id="_NCMT0FOpEeSRsKoJf7SB2A" name="StringHandling"/>
+    <routinesParameter xmi:id="_yH0jD31PEeS-pMPTBcHrjw" id="_NCxioFOpEeSRsKoJf7SB2A" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_yH0jEH1PEeS-pMPTBcHrjw" id="_NDUVMFOpEeSRsKoJf7SB2A" name="TalendDate"/>
+    <routinesParameter xmi:id="_yH0jEX1PEeS-pMPTBcHrjw" id="_ND_DkFOpEeSRsKoJf7SB2A" name="TalendString"/>
+    <routinesParameter xmi:id="_yH0jEn1PEeS-pMPTBcHrjw" id="_1uIWsFMUEeSbILLnZ9-j4Q" name="StringUtil"/>
+  </parameters>
+  <node xmi:id="_yH0jE31PEeS-pMPTBcHrjw" componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="256">
+    <elementParameter xmi:id="_yH0jFH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_2"/>
+    <elementParameter xmi:id="_yH0jFX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_yH0jFn1PEeS-pMPTBcHrjw" field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_XLV7wG9NEeS9p-2lS_XGWA - Arq_Serie_Rest"/>
+    <elementParameter xmi:id="_yH0jF31PEeS-pMPTBcHrjw" field="FILE" name="FILENAME" value="context.entrada + &quot;serie.xml&quot;"/>
+    <elementParameter xmi:id="_yH0jGH1PEeS-pMPTBcHrjw" field="TEXT" name="LOOP_QUERY" value="&quot;/result/entry/fonte_provedora/orgao_primeiro_escalao/descricao&quot;"/>
+    <elementParameter xmi:id="_yH0jGX1PEeS-pMPTBcHrjw" field="TABLE" name="MAPPING">
+      <elementValue xmi:id="_yH0jGn1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="id_serie"/>
+      <elementValue xmi:id="_yH0jG31PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../id&quot;"/>
+      <elementValue xmi:id="_yH0jHH1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jHX1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="nome_serie"/>
+      <elementValue xmi:id="_yH0jHn1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../nome_extendido&quot;"/>
+      <elementValue xmi:id="_yH0jH31PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jIH1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="descricao_serie"/>
+      <elementValue xmi:id="_yH0jIX1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../descricao&quot;"/>
+      <elementValue xmi:id="_yH0jIn1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jI31PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="data_atualizacao"/>
+      <elementValue xmi:id="_yH0jJH1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../data_atualizacao&quot;"/>
+      <elementValue xmi:id="_yH0jJX1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jJn1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="fonte_gestora"/>
+      <elementValue xmi:id="_yH0jJ31PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../fonte_gestora/descricao&quot;"/>
+      <elementValue xmi:id="_yH0jKH1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jKX1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="sg_fonte_gestora"/>
+      <elementValue xmi:id="_yH0jKn1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../fonte_gestora/nome&quot;"/>
+      <elementValue xmi:id="_yH0jK31PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jLH1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="fonte_provedora"/>
+      <elementValue xmi:id="_yH0jLX1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../descricao&quot;"/>
+      <elementValue xmi:id="_yH0jLn1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jL31PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="sg_fonte_provedora"/>
+      <elementValue xmi:id="_yH0jMH1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../nome&quot;"/>
+      <elementValue xmi:id="_yH0jMX1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jMn1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="nome_grupo"/>
+      <elementValue xmi:id="_yH0jM31PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../grupo_informacao/nome&quot;"/>
+      <elementValue xmi:id="_yH0jNH1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jNX1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="base_territorial"/>
+      <elementValue xmi:id="_yH0jNn1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../base_territorial/base_territorial&quot;"/>
+      <elementValue xmi:id="_yH0jN31PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jOH1PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="periodicidade"/>
+      <elementValue xmi:id="_yH0jOX1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../periodicidade/periodicidade&quot;"/>
+      <elementValue xmi:id="_yH0jOn1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+      <elementValue xmi:id="_yH0jO31PEeS-pMPTBcHrjw" elementRef="SCHEMA_COLUMN" value="url_origem"/>
+      <elementValue xmi:id="_yH0jPH1PEeS-pMPTBcHrjw" elementRef="QUERY" value="&quot;../../../url_origem&quot;"/>
+      <elementValue xmi:id="_yH0jPX1PEeS-pMPTBcHrjw" elementRef="NODECHECK" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH0jPn1PEeS-pMPTBcHrjw" field="TEXT" name="LIMIT" value="20000"/>
+    <elementParameter xmi:id="_yH0jP31PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter xmi:id="_yH0jQH1PEeS-pMPTBcHrjw" field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter xmi:id="_yH0jQX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_XLV7wG9NEeS9p-2lS_XGWA - Arq_Serie_Rest"/>
+    <elementParameter xmi:id="_yH0jQn1PEeS-pMPTBcHrjw" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_yH0jQ31PEeS-pMPTBcHrjw" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter xmi:id="_yH0jRH1PEeS-pMPTBcHrjw" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter xmi:id="_yH0jRX1PEeS-pMPTBcHrjw" field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter xmi:id="_yH0jRn1PEeS-pMPTBcHrjw" field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter xmi:id="_yH0jR31PEeS-pMPTBcHrjw" field="FILE" name="TMP_FILENAME" value="&quot;C:/Talend2/5.0.2/cmdline/studio/workspaceSplenda/temp.xml&quot;"/>
+    <elementParameter xmi:id="_yH0jSH1PEeS-pMPTBcHrjw" field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_yH0jSX1PEeS-pMPTBcHrjw" field="TEXT" name="FIELD_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter xmi:id="_yH0jSn1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter xmi:id="_yH0jS31PEeS-pMPTBcHrjw" field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter xmi:id="_yH0jTH1PEeS-pMPTBcHrjw" field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter xmi:id="_yH0jTX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter xmi:id="_yH0jTn1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mapeia Séries"/>
+    <elementParameter xmi:id="_yH0jT31PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH0jUH1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH0jUX1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente reponsável por mapear todas as séries históricas extraídas da API PGI."/>
+    <elementParameter xmi:id="_yH0jUn1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH0jU31PEeS-pMPTBcHrjw" connector="FLOW" label="Arq_Serie_Rest" name="tFileInputXML_2">
+      <column xmi:id="_yH0jVH1PEeS-pMPTBcHrjw" comment="" key="false" length="100" name="id_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jVX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jVn1PEeS-pMPTBcHrjw" comment="" key="false" length="5000" name="descricao_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jV31PEeS-pMPTBcHrjw" comment="" key="false" length="50" name="data_atualizacao" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jWH1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jWX1PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jWn1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jW31PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jXH1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_grupo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jXX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="base_territorial" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jXn1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="periodicidade" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jX31PEeS-pMPTBcHrjw" comment="" key="false" length="80" name="url_origem" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+    </metadata>
+    <metadata xmi:id="_yH0jYH1PEeS-pMPTBcHrjw" connector="REJECT" label="Arq_Serie_Rest" name="REJECT">
+      <column xmi:id="_yH0jYX1PEeS-pMPTBcHrjw" comment="" key="false" length="100" name="id_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jYn1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jY31PEeS-pMPTBcHrjw" comment="" key="false" length="5000" name="descricao_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jZH1PEeS-pMPTBcHrjw" comment="" key="false" length="50" name="data_atualizacao" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jZX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jZn1PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jZ31PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jaH1PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jaX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_grupo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jan1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="base_territorial" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0ja31PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="periodicidade" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jbH1PEeS-pMPTBcHrjw" comment="" key="false" length="80" name="url_origem" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jbX1PEeS-pMPTBcHrjw" defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column xmi:id="_yH0jbn1PEeS-pMPTBcHrjw" defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node xmi:id="_yH0jb31PEeS-pMPTBcHrjw" componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="256">
+    <elementParameter xmi:id="_yH0jcH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tSortRow_2"/>
+    <elementParameter xmi:id="_yH0jcX1PEeS-pMPTBcHrjw" field="TABLE" name="CRITERIA">
+      <elementValue xmi:id="_yH0jcn1PEeS-pMPTBcHrjw" elementRef="COLNAME" value="nome_grupo"/>
+      <elementValue xmi:id="_yH0jc31PEeS-pMPTBcHrjw" elementRef="SORT" value="alpha"/>
+      <elementValue xmi:id="_yH0jdH1PEeS-pMPTBcHrjw" elementRef="ORDER" value="asc"/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH0jdX1PEeS-pMPTBcHrjw" field="CHECK" name="EXTERNAL" value="false"/>
+    <elementParameter xmi:id="_yH0jdn1PEeS-pMPTBcHrjw" field="DIRECTORY" name="TEMPFILE" value="&quot;C:/Talend2/5.0.2/cmdline/studio/workspaceSplenda/temp&quot;"/>
+    <elementParameter xmi:id="_yH0jd31PEeS-pMPTBcHrjw" field="CHECK" name="CREATEDIR" value="true"/>
+    <elementParameter xmi:id="_yH0jeH1PEeS-pMPTBcHrjw" field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" value="1000000"/>
+    <elementParameter xmi:id="_yH0jeX1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Ordena Séries"/>
+    <elementParameter xmi:id="_yH0jen1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH0je31PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH0jfH1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por ordenar séries históricas pelo grupo de informação."/>
+    <elementParameter xmi:id="_yH0jfX1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH0jfn1PEeS-pMPTBcHrjw" connector="FLOW" label="Arq_Serie_Rest" name="tSortRow_2">
+      <column xmi:id="_yH0jf31PEeS-pMPTBcHrjw" comment="" key="false" length="100" name="id_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jgH1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jgX1PEeS-pMPTBcHrjw" comment="" key="false" length="5000" name="descricao_serie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jgn1PEeS-pMPTBcHrjw" comment="" key="false" length="50" name="data_atualizacao" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jg31PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jhH1PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jhX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jhn1PEeS-pMPTBcHrjw" comment="" key="false" length="15" name="sg_fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jh31PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_grupo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jiH1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="base_territorial" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jiX1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="periodicidade" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH0jin1PEeS-pMPTBcHrjw" comment="" key="false" length="80" name="url_origem" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+    </metadata>
+  </node>
+  <node xmi:id="_yH0ji31PEeS-pMPTBcHrjw" componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+    <elementParameter xmi:id="_yH0jjH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_1"/>
+    <elementParameter xmi:id="_yH1J4H1PEeS-pMPTBcHrjw" field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter xmi:id="_yH1J4X1PEeS-pMPTBcHrjw" field="TABLE" name="MAP"/>
+    <elementParameter xmi:id="_yH1J4n1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Itera Linha"/>
+    <elementParameter xmi:id="_yH1J431PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1J5H1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1J5X1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por gerar uma iteração de cada vez da linha do fluxo."/>
+    <elementParameter xmi:id="_yH1J5n1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1J531PEeS-pMPTBcHrjw" connector="FLOW" name="tFlowToIterate_1"/>
+  </node>
+  <node xmi:id="_yH1J6H1PEeS-pMPTBcHrjw" componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="256">
+    <elementParameter xmi:id="_yH1J6X1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1"/>
+    <elementParameter xmi:id="_yH1J6n1PEeS-pMPTBcHrjw" field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter xmi:id="_yH1J631PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      "/>
+    <elementParameter xmi:id="_yH1J7H1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE_MAIN" value="context.nome = Relational.ISNULL(context.nome) || context.nome.trim().equals(&quot;&quot;) ? xml.nome_grupo : !context.nome.equals(xml.nome_grupo) &amp;&amp; !context.nome.equals(&quot;1&quot;) ? &quot;1&quot; : xml.nome_grupo;&#xA;&#xA;context.resource = !context.vernome.equals(context.nome) ? &quot;&quot; : context.resource;&#xA;&#xA;context.resource =  Relational.ISNULL(context.resource) || context.resource.trim().equals(&quot;&quot;) ? &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;XML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/xml&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.xml&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;HTML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;text/html&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) +  &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.html&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;JSON&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/json&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.json&quot; + &quot;\&quot;&quot; + &quot;}&quot; : !context.resource.trim().equals(&quot;&quot;) &amp;&amp; !context.nome.equals(&quot;1&quot;) ? context.resource + &quot;,{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;XML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/xml&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.xml&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;HTML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;text/html&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) +  &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.html&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;JSON&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/json&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.json&quot; + &quot;\&quot;&quot; + &quot;}&quot; : &quot;&quot;;&#xA;&#xA;&#xA;context.serie = context.resource.trim().equals(&quot;&quot;) &amp;&amp; context.nome.equals(&quot;1&quot;) ? &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;XML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/xml&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.xml&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;HTML&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;text/html&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) +  &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.html&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;format\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;JSON&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;webstore_url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + xml.url_origem+ &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;description\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.descricao_serie).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;).replaceAll(&quot;\&quot;&quot;,&quot;\\\\u0022&quot;).replaceAll(&quot;\r&quot;,&quot; &quot;).replaceAll(&quot;\n&quot;,&quot; &quot;).replaceAll(&quot;&amp;&quot;,&quot;\\\\u0026&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;mimetype\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;application/json&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(xml.nome_serie) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;http://api.pgi.gov.br/api/1/serie/&quot;+xml.id_serie+&quot;.json&quot; + &quot;\&quot;&quot; + &quot;}&quot; : &quot;&quot;;&#xA;&#xA;context.resource = context.resource.trim().equals(&quot;&quot;) ? context.serie : context.resource;&#xA;&#xA;&#xA;context.vernome = xml.nome_grupo;&#xA;&#xA;serie.periodicidade = xml.periodicidade;&#xA;serie.base_territorial = xml.base_territorial.replaceAll(&quot;Nacional&quot;,&quot;Federal&quot;);&#xA;serie.nome_grupo = xml.nome_grupo;&#xA;serie.fonte_gestora = routines.StringUtil.stringToUnicode(xml.fonte_gestora.concat(&quot; - (&quot;.concat(xml.sg_fonte_gestora.concat(&quot;)&quot;))));&#xA;serie.fonte_provedora = routines.StringUtil.stringToUnicode(xml.fonte_provedora.concat(&quot; - (&quot;.concat(xml.sg_fonte_provedora.concat(&quot;)&quot;))));&#xA;serie.recursos_geral = context.resource;"/>
+    <elementParameter xmi:id="_yH1J7X1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter xmi:id="_yH1J7n1PEeS-pMPTBcHrjw" field="CHECK" name="Version_V2_0" value="false"/>
+    <elementParameter xmi:id="_yH1J731PEeS-pMPTBcHrjw" field="CHECK" name="Version_V3_2" value="false"/>
+    <elementParameter xmi:id="_yH1J8H1PEeS-pMPTBcHrjw" field="CHECK" name="Version_V4.0" value="true"/>
+    <elementParameter xmi:id="_yH1J8X1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yH1J8n1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Salva Séries Históricas"/>
+    <elementParameter xmi:id="_yH1J831PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1J9H1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1J9X1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por salvar as séries históricas no contexto 'resource'."/>
+    <elementParameter xmi:id="_yH1J9n1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1J931PEeS-pMPTBcHrjw" connector="FLOW" name="tJavaFlex_1">
+      <column xmi:id="_yH1J-H1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="recursos_geral" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column xmi:id="_yH1J-X1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_gestora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH1J-n1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="fonte_provedora" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH1J-31PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="nome_grupo" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH1J_H1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="base_territorial" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+      <column xmi:id="_yH1J_X1PEeS-pMPTBcHrjw" comment="" key="false" length="1000" name="periodicidade" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String"/>
+    </metadata>
+  </node>
+  <node xmi:id="_yH1J_n1PEeS-pMPTBcHrjw" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256" sizeX="32" sizeY="128">
+    <elementParameter xmi:id="_yH1J_31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tMap_2"/>
+    <elementParameter xmi:id="_yH1KAH1PEeS-pMPTBcHrjw" field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter xmi:id="_yH1KAX1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter xmi:id="_yH1KAn1PEeS-pMPTBcHrjw" field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter xmi:id="_yH1KA31PEeS-pMPTBcHrjw" field="IMAGE" name="PREVIEW" value="_wulnIG86EeS9p-2lS_XGWA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter xmi:id="_yH1KBH1PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter xmi:id="_yH1KBX1PEeS-pMPTBcHrjw" field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter xmi:id="_yH1KBn1PEeS-pMPTBcHrjw" field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter xmi:id="_yH1KB31PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mapeamento PGI x INDA"/>
+    <elementParameter xmi:id="_yH1KCH1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1KCX1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1KCn1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por mapear os dados extraídos da API PGI para o formaro aceito pela API CKAN."/>
+    <elementParameter xmi:id="_yH1KC31PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1KDH1PEeS-pMPTBcHrjw" connector="FLOW" name="ckan">
+      <column xmi:id="_yH1KDX1PEeS-pMPTBcHrjw" comment="" key="false" name="json" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+    <metadata xmi:id="_yH1KDn1PEeS-pMPTBcHrjw" connector="FLOW" name="ckan_update">
+      <column xmi:id="_yH1KD31PEeS-pMPTBcHrjw" comment="" key="false" name="newColumn" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="MapperData" xmi:id="_yH1KEH1PEeS-pMPTBcHrjw">
+      <uiProperties xmi:id="_yH1KEX1PEeS-pMPTBcHrjw"/>
+      <varTables xmi:id="_yH1KEn1PEeS-pMPTBcHrjw" sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries xmi:id="_yH1KE31PEeS-pMPTBcHrjw" name="grupo_informacao" expression="routines.StringUtil.removeAcentos(serie.nome_grupo).trim().toLowerCase().replaceAll(&quot; - &quot;, &quot;-&quot;).replaceAll(&quot; &quot;, &quot;-&quot;).replaceAll(&quot;/&quot;, &quot;-&quot;).replaceAll(&quot;\\(&quot;, &quot;-&quot;).replaceAll(&quot;\\)&quot;, &quot;&quot;)           " type="id_String"/>
+        <mapperTableEntries xmi:id="_yH1KFH1PEeS-pMPTBcHrjw" name="descricao" expression="&quot;Descrição Grupo PGI: Série histórica de indicadores dos resultados governamentais relativos à &quot; + serie.nome_grupo  + &quot;. PGI é um repositório de informações estruturadas (indicadores) à feição dos processos de governança para o Governo Federal; ou seja, um repositório de compartilhamento de indicadores de políticas públicas.(http://pgi.gov.br/pgi/)&quot;         " type="id_String"/>
+      </varTables>
+      <outputTables xmi:id="_yH1KFX1PEeS-pMPTBcHrjw" sizeState="INTERMEDIATE" name="ckan">
+        <mapperTableEntries xmi:id="_yH1KFn1PEeS-pMPTBcHrjw" name="json" expression="&quot;{&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + Var.grupo_informacao + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;title\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Indicadores sobre &quot; +  routines.StringUtil.stringToUnicode(serie.nome_grupo) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;author\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + serie.fonte_provedora + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;maintainer\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + serie.fonte_gestora + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;notes\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(Var.descricao).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;http://pgi.gov.br/pgi/\&quot;&quot; + &quot;,&quot; + &quot;\&quot;state\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;active&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;resources\&quot;&quot; + &quot;:[{&quot; + serie.recursos_geral + &quot;]&quot; + &quot;,&quot; + &quot;\&quot;tags\&quot;&quot; + &quot;:[{&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;PGI&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;Indicador&quot; + &quot;\&quot;&quot; + &quot;}],&quot; + &quot;\&quot;license_id\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;odc-odbl&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;extras\&quot;&quot; + &quot;:[{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Granularidade geográfica&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(serie.base_territorial) + &quot;\&quot;&quot; + &quot;},&quot; +&quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Frequência de atualização&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(serie.periodicidade) + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Órgão - Esfera&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Federal&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Órgão - Poder&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Executivo&quot; + &quot;\&quot;&quot;  + &quot;}]&quot; +&quot;}&quot;                                " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables xmi:id="_yH1KF31PEeS-pMPTBcHrjw" sizeState="INTERMEDIATE" name="ckan_update">
+        <mapperTableEntries xmi:id="_yH1KGH1PEeS-pMPTBcHrjw" name="newColumn" expression="&quot;{&quot; + &quot;\&quot;id\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + Var.grupo_informacao + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;title\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Indicadores sobre &quot; +  routines.StringUtil.stringToUnicode(serie.nome_grupo) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;author\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + serie.fonte_provedora + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;maintainer\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + serie.fonte_gestora + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;notes\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(Var.descricao).replaceAll(&quot;;&quot;,&quot;\\\\u003b&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;url\&quot;&quot; + &quot;:&quot; + &quot;\&quot;http://pgi.gov.br/pgi/\&quot;&quot; + &quot;,&quot; + &quot;\&quot;state\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;active&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;resources\&quot;&quot; + &quot;:[{&quot; + serie.recursos_geral + &quot;]&quot; + &quot;,&quot; + &quot;\&quot;tags\&quot;&quot; + &quot;:[{&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;PGI&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;name\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; +&quot;Indicador&quot; + &quot;\&quot;&quot; + &quot;}],&quot; + &quot;\&quot;license_id\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;odc-odbl&quot; + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;extras\&quot;&quot; + &quot;:[{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Granularidade geográfica&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(serie.base_territorial) + &quot;\&quot;&quot; + &quot;},&quot; +&quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Frequência de atualização&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(serie.periodicidade) + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Órgão - Esfera&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Federal&quot; + &quot;\&quot;&quot; + &quot;},&quot; + &quot;{&quot; + &quot;\&quot;key\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + routines.StringUtil.stringToUnicode(&quot;Órgão - Poder&quot;) + &quot;\&quot;&quot; + &quot;,&quot; + &quot;\&quot;value\&quot;&quot; + &quot;:&quot; + &quot;\&quot;&quot; + &quot;Executivo&quot; + &quot;\&quot;&quot;  + &quot;}]&quot; +&quot;}&quot;                        " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables xmi:id="_yH1KGX1PEeS-pMPTBcHrjw" sizeState="INTERMEDIATE" name="serie" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries xmi:id="_yH1KGn1PEeS-pMPTBcHrjw" name="recursos_geral" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_yH1KG31PEeS-pMPTBcHrjw" name="fonte_gestora" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_yH1KHH1PEeS-pMPTBcHrjw" name="fonte_provedora" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_yH1KHX1PEeS-pMPTBcHrjw" name="nome_grupo" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_yH1KHn1PEeS-pMPTBcHrjw" name="base_territorial" type="id_String" nullable="true"/>
+        <mapperTableEntries xmi:id="_yH1KH31PEeS-pMPTBcHrjw" name="periodicidade" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node xmi:id="_yH1KIH1PEeS-pMPTBcHrjw" componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="256">
+    <elementParameter xmi:id="_yH1KIX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2"/>
+    <elementParameter xmi:id="_yH1KIn1PEeS-pMPTBcHrjw" field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter xmi:id="_yH1KI31PEeS-pMPTBcHrjw" field="TEXT" name="STREAMNAME" value="outputStream"/>
+    <elementParameter xmi:id="_yH1KJH1PEeS-pMPTBcHrjw" field="FILE" name="FILENAME" value="context.entrada_series_json + context.id + &quot;.json&quot;"/>
+    <elementParameter xmi:id="_yH1KJX1PEeS-pMPTBcHrjw" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_yH1KJn1PEeS-pMPTBcHrjw" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_yH1KJ31PEeS-pMPTBcHrjw" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_yH1KKH1PEeS-pMPTBcHrjw" field="CHECK" name="APPEND" value="false"/>
+    <elementParameter xmi:id="_yH1KKX1PEeS-pMPTBcHrjw" field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter xmi:id="_yH1KKn1PEeS-pMPTBcHrjw" field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter xmi:id="_yH1KK31PEeS-pMPTBcHrjw" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_yH1KLH1PEeS-pMPTBcHrjw" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter xmi:id="_yH1KLX1PEeS-pMPTBcHrjw" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter xmi:id="_yH1KLn1PEeS-pMPTBcHrjw" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_yH1KL31PEeS-pMPTBcHrjw" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter xmi:id="_yH1KMH1PEeS-pMPTBcHrjw" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter xmi:id="_yH1KMX1PEeS-pMPTBcHrjw" field="CHECK" name="CREATE" value="true"/>
+    <elementParameter xmi:id="_yH1KMn1PEeS-pMPTBcHrjw" field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter xmi:id="_yH1KM31PEeS-pMPTBcHrjw" field="TEXT" name="SPLIT_EVERY" value="1"/>
+    <elementParameter xmi:id="_yH1KNH1PEeS-pMPTBcHrjw" field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter xmi:id="_yH1KNX1PEeS-pMPTBcHrjw" field="TEXT" name="FLUSHONROW_NUM" value="1"/>
+    <elementParameter xmi:id="_yH1KNn1PEeS-pMPTBcHrjw" field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter xmi:id="_yH1KN31PEeS-pMPTBcHrjw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_yH1KOH1PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yH1KOX1PEeS-pMPTBcHrjw" field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter xmi:id="_yH1KOn1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Arquivo Create CKAN"/>
+    <elementParameter xmi:id="_yH1KO31PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1KPH1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1KPX1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por gerar os arquivos que serão chamados na operação http://ip-servidor/api/3/action/package_create da API CKAN."/>
+    <elementParameter xmi:id="_yH1KPn1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1KP31PEeS-pMPTBcHrjw" connector="FLOW" name="tFileOutputDelimited_2">
+      <column xmi:id="_yH1KQH1PEeS-pMPTBcHrjw" comment="" key="false" name="json" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node xmi:id="_yH1KQX1PEeS-pMPTBcHrjw" componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="320">
+    <elementParameter xmi:id="_yH1KQn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3"/>
+    <elementParameter xmi:id="_yH1KQ31PEeS-pMPTBcHrjw" field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter xmi:id="_yH1KRH1PEeS-pMPTBcHrjw" field="TEXT" name="STREAMNAME" value="outputStream"/>
+    <elementParameter xmi:id="_yH1KRX1PEeS-pMPTBcHrjw" field="FILE" name="FILENAME" value="context.entrada_series_json +&quot;update/&quot; + context.id + &quot;.json&quot;"/>
+    <elementParameter xmi:id="_yH1KRn1PEeS-pMPTBcHrjw" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_yH1KR31PEeS-pMPTBcHrjw" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_yH1KSH1PEeS-pMPTBcHrjw" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_yH1KSX1PEeS-pMPTBcHrjw" field="CHECK" name="APPEND" value="false"/>
+    <elementParameter xmi:id="_yH1KSn1PEeS-pMPTBcHrjw" field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter xmi:id="_yH1KS31PEeS-pMPTBcHrjw" field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter xmi:id="_yH1KTH1PEeS-pMPTBcHrjw" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_yH1KTX1PEeS-pMPTBcHrjw" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter xmi:id="_yH1KTn1PEeS-pMPTBcHrjw" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter xmi:id="_yH1KT31PEeS-pMPTBcHrjw" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_yH1KUH1PEeS-pMPTBcHrjw" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter xmi:id="_yH1KUX1PEeS-pMPTBcHrjw" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter xmi:id="_yH1KUn1PEeS-pMPTBcHrjw" field="CHECK" name="CREATE" value="true"/>
+    <elementParameter xmi:id="_yH1KU31PEeS-pMPTBcHrjw" field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter xmi:id="_yH1KVH1PEeS-pMPTBcHrjw" field="TEXT" name="SPLIT_EVERY" value="1000"/>
+    <elementParameter xmi:id="_yH1KVX1PEeS-pMPTBcHrjw" field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter xmi:id="_yH1KVn1PEeS-pMPTBcHrjw" field="TEXT" name="FLUSHONROW_NUM" value="1"/>
+    <elementParameter xmi:id="_yH1KV31PEeS-pMPTBcHrjw" field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter xmi:id="_yH1KWH1PEeS-pMPTBcHrjw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_yH1KWX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yH1KWn1PEeS-pMPTBcHrjw" field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter xmi:id="_yH1KW31PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Arquivo Update CKAN"/>
+    <elementParameter xmi:id="_yH1KXH1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1KXX1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1KXn1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por gerar os arquivos que serão chamados na operação http://ip-servidor/api/3/action/package_update da API CKAN."/>
+    <elementParameter xmi:id="_yH1KX31PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1KYH1PEeS-pMPTBcHrjw" connector="FLOW" name="tFileOutputDelimited_3">
+      <column xmi:id="_yH1KYX1PEeS-pMPTBcHrjw" comment="" key="false" name="newColumn" nullable="true" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node xmi:id="_yH1KYn1PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
+    <elementParameter xmi:id="_yH1KY31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter xmi:id="_yH1KZH1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="context.id = routines.StringUtil.removeAcentos(xml.nome_grupo).trim().toLowerCase().replaceAll(&quot; - &quot;, &quot;-&quot;).replaceAll(&quot; &quot;, &quot;-&quot;).replaceAll(&quot;/&quot;, &quot;-&quot;).replaceAll(&quot;\\(&quot;, &quot;-&quot;).replaceAll(&quot;\\)&quot;, &quot;&quot;);"/>
+    <elementParameter xmi:id="_yH1KZX1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yH1KZn1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Salva Grupo Informação"/>
+    <elementParameter xmi:id="_yH1KZ31PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1KaH1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1KaX1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por salvar os grupos de informação no contexto 'id'."/>
+    <elementParameter xmi:id="_yH1Kan1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1Ka31PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_1"/>
+  </node>
+  <node xmi:id="_yH1KbH1PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter xmi:id="_yH1KbX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_yH1Kbn1PEeS-pMPTBcHrjw" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_yH1Kb31PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\nProcesso de ETL &quot; + jobName + &quot; iniciado!!!  \n&quot;);"/>
+    <elementParameter xmi:id="_yH1KcH1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yH1KcX1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mensagem Inicio"/>
+    <elementParameter xmi:id="_yH1Kcn1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1Kc31PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1KdH1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por imprimir a mensagem de ínicio do job."/>
+    <elementParameter xmi:id="_yH1KdX1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1Kdn1PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_2"/>
+  </node>
+  <node xmi:id="_yH1Kd31PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="480">
+    <elementParameter xmi:id="_yH1KeH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_3"/>
+    <elementParameter xmi:id="_yH1KeX1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\nProcesso de ETL &quot; + jobName + &quot; finalizado com sucesso!!!  \n&quot;);"/>
+    <elementParameter xmi:id="_yH1Ken1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yH1Ke31PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mensagem Fim"/>
+    <elementParameter xmi:id="_yH1KfH1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yH1KfX1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yH1Kfn1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por imprimir a mensagem de fim do job."/>
+    <elementParameter xmi:id="_yH1Kf31PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yH1KgH1PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_3"/>
+  </node>
+  <connection xmi:id="_yH1KgX1PEeS-pMPTBcHrjw" connectorName="FLOW" label="arq_serie_rest" lineStyle="0" metaname="tFileInputXML_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_2" target="tSortRow_2">
+    <elementParameter xmi:id="_yH1Kgn1PEeS-pMPTBcHrjw" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter xmi:id="_yH1Kg31PEeS-pMPTBcHrjw" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue xmi:id="_yH1KhH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="id_serie"/>
+      <elementValue xmi:id="_yH1KhX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Khn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kh31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="nome_serie"/>
+      <elementValue xmi:id="_yH1KiH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KiX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kin1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="descricao_serie"/>
+      <elementValue xmi:id="_yH1Ki31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KjH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KjX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="data_atualizacao"/>
+      <elementValue xmi:id="_yH1Kjn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kj31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KkH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_gestora"/>
+      <elementValue xmi:id="_yH1KkX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kkn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kk31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_provedora"/>
+      <elementValue xmi:id="_yH1KlH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KlX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kln1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="nome_grupo"/>
+      <elementValue xmi:id="_yH1Kl31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KmH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KmX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="base_territorial"/>
+      <elementValue xmi:id="_yH1Kmn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Km31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KnH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="periodicidade"/>
+      <elementValue xmi:id="_yH1KnX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Knn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH1Kn31PEeS-pMPTBcHrjw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_yH1KoH1PEeS-pMPTBcHrjw" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter xmi:id="_yH1KoX1PEeS-pMPTBcHrjw" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter xmi:id="_yH1Kon1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter xmi:id="_yH1Ko31PEeS-pMPTBcHrjw" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter xmi:id="_yH1KpH1PEeS-pMPTBcHrjw" field="TABLE" name="THRESHLODS"/>
+    <elementParameter xmi:id="_yH1KpX1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1Kpn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="arq_serie_rest"/>
+    <elementParameter xmi:id="_yH1Kp31PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1KqH1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1KqX1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter xmi:id="_yH1Kqn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1Kq31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_yH1KrH1PEeS-pMPTBcHrjw" field="TABLE" name="CONDITIONS"/>
+    <elementParameter xmi:id="_yH1KrX1PEeS-pMPTBcHrjw" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_yH1Krn1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection xmi:id="_yH1Kr31PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputXML_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_2" target="tJava_3">
+    <elementParameter xmi:id="_yH1KsH1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1KsX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2"/>
+    <elementParameter xmi:id="_yH1Ksn1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1Ks31PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1KtH1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yH1KtX1PEeS-pMPTBcHrjw" connectorName="FLOW" label="xml" lineStyle="0" metaname="tSortRow_2" offsetLabelX="0" offsetLabelY="0" source="tSortRow_2" target="tFlowToIterate_1">
+    <elementParameter xmi:id="_yH1Ktn1PEeS-pMPTBcHrjw" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter xmi:id="_yH1Kt31PEeS-pMPTBcHrjw" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue xmi:id="_yH1KuH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="id_serie"/>
+      <elementValue xmi:id="_yH1KuX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kun1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Ku31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="nome_serie"/>
+      <elementValue xmi:id="_yH1KvH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KvX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kvn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="descricao_serie"/>
+      <elementValue xmi:id="_yH1Kv31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KwH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KwX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="data_atualizacao"/>
+      <elementValue xmi:id="_yH1Kwn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kw31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KxH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_gestora"/>
+      <elementValue xmi:id="_yH1KxX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kxn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kx31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_provedora"/>
+      <elementValue xmi:id="_yH1KyH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KyX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1Kyn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="nome_grupo"/>
+      <elementValue xmi:id="_yH1Ky31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1KzH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1KzX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="base_territorial"/>
+      <elementValue xmi:id="_yH1Kzn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1Kz31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1K0H1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="periodicidade"/>
+      <elementValue xmi:id="_yH1K0X1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1K0n1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH1K031PEeS-pMPTBcHrjw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_yH1K1H1PEeS-pMPTBcHrjw" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter xmi:id="_yH1K1X1PEeS-pMPTBcHrjw" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter xmi:id="_yH1K1n1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter xmi:id="_yH1K131PEeS-pMPTBcHrjw" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter xmi:id="_yH1K2H1PEeS-pMPTBcHrjw" field="TABLE" name="THRESHLODS"/>
+    <elementParameter xmi:id="_yH1K2X1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1K2n1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="xml"/>
+    <elementParameter xmi:id="_yH1K231PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1K3H1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1K3X1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter xmi:id="_yH1K3n1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1K331PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_yH1K4H1PEeS-pMPTBcHrjw" field="TABLE" name="CONDITIONS"/>
+    <elementParameter xmi:id="_yH1K4X1PEeS-pMPTBcHrjw" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_yH1K4n1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection xmi:id="_yH1K431PEeS-pMPTBcHrjw" connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFlowToIterate_1" target="tJava_1">
+    <elementParameter xmi:id="_yH1K5H1PEeS-pMPTBcHrjw" field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter xmi:id="_yH1K5X1PEeS-pMPTBcHrjw" field="TEXT" name="NUMBER_PARALLEL" value="2"/>
+    <elementParameter xmi:id="_yH1K5n1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1K531PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="iterate2"/>
+    <elementParameter xmi:id="_yH1K6H1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1K6X1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1K6n1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yH1K631PEeS-pMPTBcHrjw" connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFlowToIterate_1" target="tJavaFlex_1">
+    <elementParameter xmi:id="_yH1K7H1PEeS-pMPTBcHrjw" field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter xmi:id="_yH1K7X1PEeS-pMPTBcHrjw" field="TEXT" name="NUMBER_PARALLEL" value="2"/>
+    <elementParameter xmi:id="_yH1K7n1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1K731PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="iterate1"/>
+    <elementParameter xmi:id="_yH1K8H1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1K8X1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1K8n1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yH1K831PEeS-pMPTBcHrjw" connectorName="FLOW" label="serie" lineStyle="0" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tMap_2">
+    <elementParameter xmi:id="_yH1K9H1PEeS-pMPTBcHrjw" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter xmi:id="_yH1K9X1PEeS-pMPTBcHrjw" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue xmi:id="_yH1K9n1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="recursos_geral"/>
+      <elementValue xmi:id="_yH1K931PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1K-H1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1K-X1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_gestora"/>
+      <elementValue xmi:id="_yH1K-n1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1K-31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1K_H1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="fonte_provedora"/>
+      <elementValue xmi:id="_yH1K_X1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1K_n1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1K_31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="nome_grupo"/>
+      <elementValue xmi:id="_yH1LAH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LAX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LAn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="base_territorial"/>
+      <elementValue xmi:id="_yH1LA31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LBH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LBX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="periodicidade"/>
+      <elementValue xmi:id="_yH1LBn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LB31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH1LCH1PEeS-pMPTBcHrjw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_yH1LCX1PEeS-pMPTBcHrjw" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter xmi:id="_yH1LCn1PEeS-pMPTBcHrjw" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter xmi:id="_yH1LC31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter xmi:id="_yH1LDH1PEeS-pMPTBcHrjw" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LDX1PEeS-pMPTBcHrjw" field="TABLE" name="THRESHLODS"/>
+    <elementParameter xmi:id="_yH1LDn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1LD31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="serie"/>
+    <elementParameter xmi:id="_yH1LEH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LEX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1LEn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LE31PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LFH1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_yH1LFX1PEeS-pMPTBcHrjw" field="TABLE" name="CONDITIONS"/>
+    <elementParameter xmi:id="_yH1LFn1PEeS-pMPTBcHrjw" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_yH1LF31PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection xmi:id="_yH1LGH1PEeS-pMPTBcHrjw" connectorName="FLOW" label="ckan" lineStyle="0" metaname="ckan" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_2" target="tFileOutputDelimited_2">
+    <elementParameter xmi:id="_yH1LGX1PEeS-pMPTBcHrjw" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter xmi:id="_yH1LGn1PEeS-pMPTBcHrjw" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue xmi:id="_yH1LG31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="grupo_informacao"/>
+      <elementValue xmi:id="_yH1LHH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LHX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LHn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="id"/>
+      <elementValue xmi:id="_yH1LH31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LIH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LIX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="json"/>
+      <elementValue xmi:id="_yH1LIn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LI31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LJH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="verificador"/>
+      <elementValue xmi:id="_yH1LJX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LJn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH1LJ31PEeS-pMPTBcHrjw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_yH1LKH1PEeS-pMPTBcHrjw" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter xmi:id="_yH1LKX1PEeS-pMPTBcHrjw" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter xmi:id="_yH1LKn1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter xmi:id="_yH1LK31PEeS-pMPTBcHrjw" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LLH1PEeS-pMPTBcHrjw" field="TABLE" name="THRESHLODS"/>
+    <elementParameter xmi:id="_yH1LLX1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1LLn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="ckan"/>
+    <elementParameter xmi:id="_yH1LL31PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LMH1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1LMX1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LMn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LM31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_yH1LNH1PEeS-pMPTBcHrjw" field="TABLE" name="CONDITIONS"/>
+    <elementParameter xmi:id="_yH1LNX1PEeS-pMPTBcHrjw" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_yH1LNn1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection xmi:id="_yH1LN31PEeS-pMPTBcHrjw" connectorName="FLOW" label="ckan_update" lineStyle="0" metaname="ckan_update" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_2" target="tFileOutputDelimited_3">
+    <elementParameter xmi:id="_yH1LOH1PEeS-pMPTBcHrjw" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter xmi:id="_yH1LOX1PEeS-pMPTBcHrjw" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue xmi:id="_yH1LOn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue xmi:id="_yH1LO31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LPH1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue xmi:id="_yH1LPX1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN" value="verificador"/>
+      <elementValue xmi:id="_yH1LPn1PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue xmi:id="_yH1LP31PEeS-pMPTBcHrjw" elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter xmi:id="_yH1LQH1PEeS-pMPTBcHrjw" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_yH1LQX1PEeS-pMPTBcHrjw" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter xmi:id="_yH1LQn1PEeS-pMPTBcHrjw" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter xmi:id="_yH1LQ31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter xmi:id="_yH1LRH1PEeS-pMPTBcHrjw" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LRX1PEeS-pMPTBcHrjw" field="TABLE" name="THRESHLODS"/>
+    <elementParameter xmi:id="_yH1LRn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1LR31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="ckan_update"/>
+    <elementParameter xmi:id="_yH1LSH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LSX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1LSn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+    <elementParameter xmi:id="_yH1LS31PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVEBREAKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LTH1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+    <elementParameter xmi:id="_yH1LTX1PEeS-pMPTBcHrjw" field="TABLE" name="CONDITIONS"/>
+    <elementParameter xmi:id="_yH1LTn1PEeS-pMPTBcHrjw" field="CHECK" name="USE_ADVANCED" value="false"/>
+    <elementParameter xmi:id="_yH1LT31PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
+  </connection>
+  <connection xmi:id="_yH1LUH1PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tFileInputXML_2">
+    <elementParameter xmi:id="_yH1LUX1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yH1LUn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+    <elementParameter xmi:id="_yH1LU31PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yH1LVH1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yH1LVX1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_yH1w8H1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yH1w8X1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_2"/>
+    <elementParameter xmi:id="_yH1w8n1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yH1w831PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yH1w9H1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yH1w9X1PEeS-pMPTBcHrjw" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_yH1w9n1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_yH1w931PEeS-pMPTBcHrjw" field="TEXT" name="SUBJOB_TITLE" value="Inicio"/>
+    <elementParameter xmi:id="_yH1w-H1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yH1w-X1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yH1w-n1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yH1w-31PEeS-pMPTBcHrjw" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_yH1w_H1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_3"/>
+    <elementParameter xmi:id="_yH1w_X1PEeS-pMPTBcHrjw" field="TEXT" name="SUBJOB_TITLE" value="Fim"/>
+    <elementParameter xmi:id="_yH1w_n1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yH1w_31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

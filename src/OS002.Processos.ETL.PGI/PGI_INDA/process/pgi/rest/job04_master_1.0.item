@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_yCA1wH1PEeS-pMPTBcHrjw" defaultContext="Producao">
+  <context xmi:id="_yCA1wX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yCA1wn1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_yCA1w31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yCA1xH1PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yCA1xX1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yCA1xn1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_yCA1x31PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yCA1yH1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_yCA1yX1PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yCA1yn1PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_yCA1y31PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yCA1zH1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter xmi:id="_yCA1zX1PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="587"/>
+    <contextParameter xmi:id="_yCA1zn1PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="login@splendaconsult.com.br"/>
+    <contextParameter xmi:id="_yCA1z31PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_Password" value=""/>
+    <contextParameter xmi:id="_yCA10H1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="w4shington.mn@gmail.com"/>
+    <contextParameter xmi:id="_yCA10X1PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\log\"/>
+    <contextParameter xmi:id="_yCA10n1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yCA1031PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yCA11H1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yCA11X1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+  </context>
+  <context xmi:id="_yCA11n1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yCA1131PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_yCA12H1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yCA12X1PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yCA12n1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yCA1231PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_yCA13H1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yCA13X1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;94a9e537-087d-4c39-8866-7ecebba66581&quot;"/>
+    <contextParameter xmi:id="_yCA13n1PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yCA1331PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_yCA14H1PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yCA14X1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yCA14n1PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yCA1431PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yCA15H1PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_Password" value=""/>
+    <contextParameter xmi:id="_yCA15X1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yCA15n1PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/processo_etl/log/pgi/"/>
+    <contextParameter xmi:id="_yCA1531PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\"/>
+    <contextParameter xmi:id="_yCA16H1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\grupos\"/>
+    <contextParameter xmi:id="_yCA16X1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_json\"/>
+    <contextParameter xmi:id="_yCA16n1PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\pgi\series\series_xml\"/>
+  </context>
+  <context xmi:id="_yCA1631PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yCA17H1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_yCA17X1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_yCA17n1PEeS-pMPTBcHrjw" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_yCA1731PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_yCA18H1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_yCA18X1PEeS-pMPTBcHrjw" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+    <contextParameter xmi:id="_yCA18n1PEeS-pMPTBcHrjw" comment="" name="api" prompt="api?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_yCA1831PEeS-pMPTBcHrjw" comment="" name="url_create" prompt="url_create?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_yCA19H1PEeS-pMPTBcHrjw" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_yCA19X1PEeS-pMPTBcHrjw" comment="" name="url_update" prompt="url_update?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_yCA19n1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="mail-apl.serpro.gov.br"/>
+    <contextParameter xmi:id="_yCA1931PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="25"/>
+    <contextParameter xmi:id="_yCA1-H1PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="rad.tac@planejamento.gov.br"/>
+    <contextParameter xmi:id="_yCA1-X1PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_Password" value="fWMNjDzjJJlnfCuK2WnOUA=="/>
+    <contextParameter xmi:id="_yCA1-n1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" repositoryContextId="_bsLUos99EeKESbp-nwz5lw" type="id_String" value="rad.tac@planejamento.gov.br"/>
+    <contextParameter xmi:id="_yCA1-31PEeS-pMPTBcHrjw" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/processo_etl/log/pgi/"/>
+    <contextParameter xmi:id="_yCA1_H1PEeS-pMPTBcHrjw" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/"/>
+    <contextParameter xmi:id="_yCA1_X1PEeS-pMPTBcHrjw" comment="" name="entrada_grupos" prompt="entrada_grupos?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value=""/>
+    <contextParameter xmi:id="_yCA1_n1PEeS-pMPTBcHrjw" comment="" name="entrada_series_json" prompt="entrada_series_json?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/series_json/"/>
+    <contextParameter xmi:id="_yCA1_31PEeS-pMPTBcHrjw" comment="" name="entrada_series_xml" prompt="entrada_series_xml?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/pgi/series_xml/"/>
+  </context>
+  <parameters xmi:id="_yCA2AH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCA2AX1PEeS-pMPTBcHrjw" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_yCA2An1PEeS-pMPTBcHrjw" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_yCA2A31PEeS-pMPTBcHrjw" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_yCA2BH1PEeS-pMPTBcHrjw" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_yCA2BX1PEeS-pMPTBcHrjw" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_yCA2Bn1PEeS-pMPTBcHrjw" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_yCA2B31PEeS-pMPTBcHrjw" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_yCA2CH1PEeS-pMPTBcHrjw" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_yCA2CX1PEeS-pMPTBcHrjw" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCA2Cn1PEeS-pMPTBcHrjw" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCA2C31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter xmi:id="_yCA2DH1PEeS-pMPTBcHrjw" field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter xmi:id="_yCA2DX1PEeS-pMPTBcHrjw" field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter xmi:id="_yCA2Dn1PEeS-pMPTBcHrjw" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/Talend-Studio-r78327-V5.0.2/workspace_dev/.metadata&quot;"/>
+    <elementParameter xmi:id="_yCA2D31PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yCA2EH1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="DB_VERSION" value="ojdbc14-10g.jar"/>
+    <routinesParameter xmi:id="_yCA2EX1PEeS-pMPTBcHrjw" id="_M-s68FOpEeSRsKoJf7SB2A" name="DataOperation"/>
+    <routinesParameter xmi:id="_yCA2En1PEeS-pMPTBcHrjw" id="_NAYV8FOpEeSRsKoJf7SB2A" name="Mathematical"/>
+    <routinesParameter xmi:id="_yCA2E31PEeS-pMPTBcHrjw" id="_NA_Z8FOpEeSRsKoJf7SB2A" name="Numeric"/>
+    <routinesParameter xmi:id="_yCA2FH1PEeS-pMPTBcHrjw" id="_NBrWcFOpEeSRsKoJf7SB2A" name="Relational"/>
+    <routinesParameter xmi:id="_yCA2FX1PEeS-pMPTBcHrjw" id="_NEk5cFOpEeSRsKoJf7SB2A" name="SQLike"/>
+    <routinesParameter xmi:id="_yCA2Fn1PEeS-pMPTBcHrjw" id="_NCMT0FOpEeSRsKoJf7SB2A" name="StringHandling"/>
+    <routinesParameter xmi:id="_yCA2F31PEeS-pMPTBcHrjw" id="_NCxioFOpEeSRsKoJf7SB2A" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_yCA2GH1PEeS-pMPTBcHrjw" id="_NDUVMFOpEeSRsKoJf7SB2A" name="TalendDate"/>
+    <routinesParameter xmi:id="_yCA2GX1PEeS-pMPTBcHrjw" id="_ND_DkFOpEeSRsKoJf7SB2A" name="TalendString"/>
+    <routinesParameter xmi:id="_yCA2Gn1PEeS-pMPTBcHrjw" id="_1uIWsFMUEeSbILLnZ9-j4Q" name="StringUtil"/>
+  </parameters>
+  <node xmi:id="_yCA2G31PEeS-pMPTBcHrjw" componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter xmi:id="_yCA2HH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter xmi:id="_yCA2HX1PEeS-pMPTBcHrjw" field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter xmi:id="_yCA2Hn1PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter xmi:id="_yCA2H31PEeS-pMPTBcHrjw" field="PROCESS_TYPE" name="PROCESS" value="job01_download_api_rest"/>
+    <elementParameter xmi:id="_yCA2IH1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_bFQCwG_gEeSQ-68vQK2rHA"/>
+    <elementParameter xmi:id="_yCA2IX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_yCA2In1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Producao"/>
+    <elementParameter xmi:id="_yCA2I31PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter xmi:id="_yCA2JH1PEeS-pMPTBcHrjw" field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter xmi:id="_yCA2JX1PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter xmi:id="_yCA2Jn1PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc0H1PEeS-pMPTBcHrjw" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_yCBc0X1PEeS-pMPTBcHrjw" field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter xmi:id="_yCBc0n1PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc031PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter xmi:id="_yCBc1H1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBc1X1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_yCBc1n1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_yCBc131PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCBc2H1PEeS-pMPTBcHrjw" connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node xmi:id="_yCBc2X1PEeS-pMPTBcHrjw" componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+    <elementParameter xmi:id="_yCBc2n1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_2"/>
+    <elementParameter xmi:id="_yCBc231PEeS-pMPTBcHrjw" field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter xmi:id="_yCBc3H1PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter xmi:id="_yCBc3X1PEeS-pMPTBcHrjw" field="PROCESS_TYPE" name="PROCESS" value="job02_criacao_json_datasets"/>
+    <elementParameter xmi:id="_yCBc3n1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_wulnIG86EeS9p-2lS_XGWA"/>
+    <elementParameter xmi:id="_yCBc331PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_yCBc4H1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Producao"/>
+    <elementParameter xmi:id="_yCBc4X1PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter xmi:id="_yCBc4n1PEeS-pMPTBcHrjw" field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter xmi:id="_yCBc431PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter xmi:id="_yCBc5H1PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc5X1PEeS-pMPTBcHrjw" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_yCBc5n1PEeS-pMPTBcHrjw" field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter xmi:id="_yCBc531PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc6H1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter xmi:id="_yCBc6X1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBc6n1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_yCBc631PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_yCBc7H1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCBc7X1PEeS-pMPTBcHrjw" connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node xmi:id="_yCBc7n1PEeS-pMPTBcHrjw" componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+    <elementParameter xmi:id="_yCBc731PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_3"/>
+    <elementParameter xmi:id="_yCBc8H1PEeS-pMPTBcHrjw" field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter xmi:id="_yCBc8X1PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter xmi:id="_yCBc8n1PEeS-pMPTBcHrjw" field="PROCESS_TYPE" name="PROCESS" value="job03_carga_ckan_rest"/>
+    <elementParameter xmi:id="_yCBc831PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_I88cwG_kEeSQ-68vQK2rHA"/>
+    <elementParameter xmi:id="_yCBc9H1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_yCBc9X1PEeS-pMPTBcHrjw" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Producao"/>
+    <elementParameter xmi:id="_yCBc9n1PEeS-pMPTBcHrjw" field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter xmi:id="_yCBc931PEeS-pMPTBcHrjw" field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter xmi:id="_yCBc-H1PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter xmi:id="_yCBc-X1PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc-n1PEeS-pMPTBcHrjw" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_yCBc-31PEeS-pMPTBcHrjw" field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter xmi:id="_yCBc_H1PEeS-pMPTBcHrjw" field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_yCBc_X1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter xmi:id="_yCBc_n1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBc_31PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_yCBdAH1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_yCBdAX1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCBdAn1PEeS-pMPTBcHrjw" connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node xmi:id="_yCBdA31PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter xmi:id="_yCBdBH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter xmi:id="_yCBdBX1PEeS-pMPTBcHrjw" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_yCBdBn1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\nProcesso de ETL &quot; + jobName + &quot; iniciado!!!  \n&quot;);"/>
+    <elementParameter xmi:id="_yCBdB31PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yCBdCH1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mensagem Inicio"/>
+    <elementParameter xmi:id="_yCBdCX1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBdCn1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCBdC31PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por imprimir a mensagem de ínicio do job."/>
+    <elementParameter xmi:id="_yCBdDH1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCBdDX1PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_1"/>
+  </node>
+  <node xmi:id="_yCBdDn1PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="320">
+    <elementParameter xmi:id="_yCBdD31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_yCBdEH1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\nProcesso de ETL &quot; + jobName + &quot; finalizado com sucesso!!!  \n&quot;);"/>
+    <elementParameter xmi:id="_yCBdEX1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yCBdEn1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mensagem Fim"/>
+    <elementParameter xmi:id="_yCBdE31PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBdFH1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCBdFX1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por imprimir a mensagem de fim do job."/>
+    <elementParameter xmi:id="_yCBdFn1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCBdF31PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_2"/>
+  </node>
+  <node xmi:id="_yCBdGH1PEeS-pMPTBcHrjw" componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="480">
+    <elementParameter xmi:id="_yCBdGX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tPostjob_1"/>
+    <elementParameter xmi:id="_yCBdGn1PEeS-pMPTBcHrjw" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_yCBdG31PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCBdHH1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBdHX1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_yCBdHn1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_yCBdH31PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_yCBdIH1PEeS-pMPTBcHrjw" componentName="tFileExist" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="480">
+    <elementParameter xmi:id="_yCBdIX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileExist_1"/>
+    <elementParameter xmi:id="_yCBdIn1PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCBdI31PEeS-pMPTBcHrjw" field="FILE" name="FILE_NAME" value="context.dir_log + &quot;Log_PGI.csv&quot;"/>
+    <elementParameter xmi:id="_yCBdJH1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Verifica Arquivo"/>
+    <elementParameter xmi:id="_yCBdJX1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCBdJn1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCBdJ31PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável pela verificação da existência do arquivo de log. Esse arquivo só é gerado se ocorrer um erro na execução. "/>
+    <elementParameter xmi:id="_yCBdKH1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_yCBdKX1PEeS-pMPTBcHrjw" componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="608">
+    <elementParameter xmi:id="_yCBdKn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tSendMail_1"/>
+    <elementParameter xmi:id="_yCBdK31PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCBdLH1PEeS-pMPTBcHrjw" field="TEXT" name="TO" value="&quot;rad.tac@planejamento.gov.br,rad.tac@splendaconsult.com.br&quot;"/>
+    <elementParameter xmi:id="_yCBdLX1PEeS-pMPTBcHrjw" field="TEXT" name="FROM" value="context.usuario_email"/>
+    <elementParameter xmi:id="_yCBdLn1PEeS-pMPTBcHrjw" field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter xmi:id="_yCBdL31PEeS-pMPTBcHrjw" field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;"/>
+    <elementParameter xmi:id="_yCBdMH1PEeS-pMPTBcHrjw" field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCBdMX1PEeS-pMPTBcHrjw" field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCBdMn1PEeS-pMPTBcHrjw" field="TEXT" name="SUBJECT" value="&quot;[SUCESSO] - Execução Processo ETL Sincronização PGI&quot;"/>
+    <elementParameter xmi:id="_yCBdM31PEeS-pMPTBcHrjw" field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Prezados, \n&#xD;&#xA;SUCESSO no processo de ETL Sincronização do PGI, que foi executado nesta data. &quot;"/>
+    <elementParameter xmi:id="_yCBdNH1PEeS-pMPTBcHrjw" field="CHECK" name="CHECK_ATTACHMENT" value="false"/>
+    <elementParameter xmi:id="_yCBdNX1PEeS-pMPTBcHrjw" field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter xmi:id="_yCBdNn1PEeS-pMPTBcHrjw" field="TABLE" name="HEADERS"/>
+    <elementParameter xmi:id="_yCBdN31PEeS-pMPTBcHrjw" field="TEXT" name="SMTP_HOST" value="context.host_email"/>
+    <elementParameter xmi:id="_yCBdOH1PEeS-pMPTBcHrjw" field="TEXT" name="SMTP_PORT" value="context.porta_email"/>
+    <elementParameter xmi:id="_yCCD4H1PEeS-pMPTBcHrjw" field="CHECK" name="SSL" value="false"/>
+    <elementParameter xmi:id="_yCCD4X1PEeS-pMPTBcHrjw" field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter xmi:id="_yCCD4n1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter xmi:id="_yCCD431PEeS-pMPTBcHrjw" field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter xmi:id="_yCCD5H1PEeS-pMPTBcHrjw" field="TEXT" name="AUTH_USERNAME" value="context.usuario"/>
+    <elementParameter xmi:id="_yCCD5X1PEeS-pMPTBcHrjw" field="TEXT" name="AUTH_PASSWORD" value="context.senha"/>
+    <elementParameter xmi:id="_yCCD5n1PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter xmi:id="_yCCD531PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
+    <elementParameter xmi:id="_yCCD6H1PEeS-pMPTBcHrjw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_yCCD6X1PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yCCD6n1PEeS-pMPTBcHrjw" field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter xmi:id="_yCCD631PEeS-pMPTBcHrjw" field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;"/>
+    <elementParameter xmi:id="_yCCD7H1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Envia Email Sucesso"/>
+    <elementParameter xmi:id="_yCCD7X1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCCD7n1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCCD731PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por enviar um email de erro para os responsáveis pelo processo, com o log de execução em anexo."/>
+    <elementParameter xmi:id="_yCCD8H1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCCD8X1PEeS-pMPTBcHrjw" connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <node xmi:id="_yCCD8n1PEeS-pMPTBcHrjw" componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="480">
+    <elementParameter xmi:id="_yCCD831PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tSendMail_2"/>
+    <elementParameter xmi:id="_yCCD9H1PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCCD9X1PEeS-pMPTBcHrjw" field="TEXT" name="TO" value="&quot;rad.tac@planejamento.gov.br,rad.tac@splendaconsult.com.br&quot;"/>
+    <elementParameter xmi:id="_yCCD9n1PEeS-pMPTBcHrjw" field="TEXT" name="FROM" value="context.usuario_email"/>
+    <elementParameter xmi:id="_yCCD931PEeS-pMPTBcHrjw" field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter xmi:id="_yCCD-H1PEeS-pMPTBcHrjw" field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;"/>
+    <elementParameter xmi:id="_yCCD-X1PEeS-pMPTBcHrjw" field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCCD-n1PEeS-pMPTBcHrjw" field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_yCCD-31PEeS-pMPTBcHrjw" field="TEXT" name="SUBJECT" value="&quot;[ERRO] - Execução Processo ETL Sincronização PGI&quot;"/>
+    <elementParameter xmi:id="_yCCD_H1PEeS-pMPTBcHrjw" field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Prezados, \n&#xD;&#xA;Ocorreu um erro no processo de ETL Sincronização PGI, verifique o detalhamento do erro no arquivo em anexo. &quot;"/>
+    <elementParameter xmi:id="_yCCD_X1PEeS-pMPTBcHrjw" field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter xmi:id="_yCCD_n1PEeS-pMPTBcHrjw" field="TABLE" name="ATTACHMENTS">
+      <elementValue xmi:id="_yCCD_31PEeS-pMPTBcHrjw" elementRef="FILE" value="context.dir_log + &quot;Log_PGI.csv&quot;"/>
+      <elementValue xmi:id="_yCCEAH1PEeS-pMPTBcHrjw" elementRef="CONTENT_TRANSFER_ENCODING" value="DEFAULT"/>
+    </elementParameter>
+    <elementParameter xmi:id="_yCCEAX1PEeS-pMPTBcHrjw" field="TABLE" name="HEADERS"/>
+    <elementParameter xmi:id="_yCCEAn1PEeS-pMPTBcHrjw" field="TEXT" name="SMTP_HOST" value="context.host_email"/>
+    <elementParameter xmi:id="_yCCEA31PEeS-pMPTBcHrjw" field="TEXT" name="SMTP_PORT" value="context.porta_email"/>
+    <elementParameter xmi:id="_yCCEBH1PEeS-pMPTBcHrjw" field="CHECK" name="SSL" value="false"/>
+    <elementParameter xmi:id="_yCCEBX1PEeS-pMPTBcHrjw" field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter xmi:id="_yCCEBn1PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter xmi:id="_yCCEB31PEeS-pMPTBcHrjw" field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter xmi:id="_yCCECH1PEeS-pMPTBcHrjw" field="TEXT" name="AUTH_USERNAME" value="context.usuario"/>
+    <elementParameter xmi:id="_yCCECX1PEeS-pMPTBcHrjw" field="TEXT" name="AUTH_PASSWORD" value="context.senha"/>
+    <elementParameter xmi:id="_yCCECn1PEeS-pMPTBcHrjw" field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter xmi:id="_yCCEC31PEeS-pMPTBcHrjw" field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
+    <elementParameter xmi:id="_yCCEDH1PEeS-pMPTBcHrjw" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_yCCEDX1PEeS-pMPTBcHrjw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_yCCEDn1PEeS-pMPTBcHrjw" field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter xmi:id="_yCCED31PEeS-pMPTBcHrjw" field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;"/>
+    <elementParameter xmi:id="_yCCEEH1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Envia Email Erro"/>
+    <elementParameter xmi:id="_yCCEEX1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCCEEn1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCCEE31PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por enviar um email de erro para os responsáveis pelo processo, com o log de execução em anexo."/>
+    <elementParameter xmi:id="_yCCEFH1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCCEFX1PEeS-pMPTBcHrjw" connector="FLOW" name="tSendMail_2"/>
+  </node>
+  <node xmi:id="_yCCEFn1PEeS-pMPTBcHrjw" componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="480">
+    <elementParameter xmi:id="_yCCEF31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1"/>
+    <elementParameter xmi:id="_yCCEGH1PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCCEGX1PEeS-pMPTBcHrjw" field="FILE" name="FILENAME" value="context.dir_log + &quot;Log_PGI.csv&quot;"/>
+    <elementParameter xmi:id="_yCCEGn1PEeS-pMPTBcHrjw" field="DIRECTORY" name="DIRECTORY" value="&quot;D:/_Programas/Talend/5.0.2/cmdline/studio/workspace-splenda/delete_folder&quot;"/>
+    <elementParameter xmi:id="_yCCEG31PEeS-pMPTBcHrjw" field="TEXT" name="PATH" value="&quot;D:/_Programas/Talend/5.0.2/cmdline/studio/workspace-splenda/delete_folder or delete_file&quot;"/>
+    <elementParameter xmi:id="_yCCEHH1PEeS-pMPTBcHrjw" field="CHECK" name="FAILON" value="true"/>
+    <elementParameter xmi:id="_yCCEHX1PEeS-pMPTBcHrjw" field="CHECK" name="FOLDER" value="false"/>
+    <elementParameter xmi:id="_yCCEHn1PEeS-pMPTBcHrjw" field="CHECK" name="FOLDER_FILE" value="false"/>
+    <elementParameter xmi:id="_yCCEH31PEeS-pMPTBcHrjw" field="LABEL" name="NOTE" value="*Note &quot;CURRENT_STATUS&quot; including:&#xA;&quot;File (or path) deleted.&quot;&#xA;&quot;No file (or path) deleted.&quot;&#xA;&quot;File (or path) does not exists or is invalid.&quot;"/>
+    <elementParameter xmi:id="_yCCEIH1PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Exclui Arquivo Erro"/>
+    <elementParameter xmi:id="_yCCEIX1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCCEIn1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCCEI31PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por excluir o arquivo de log, após o envio de email. Dessa forma na próxima execução a pasta 'temp' estará limpa e não influenciará a próxima execução."/>
+    <elementParameter xmi:id="_yCCEJH1PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCCEJX1PEeS-pMPTBcHrjw" connector="FLOW" name="tFileDelete_1"/>
+  </node>
+  <node xmi:id="_yCCEJn1PEeS-pMPTBcHrjw" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="608">
+    <elementParameter xmi:id="_yCCEJ31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_3"/>
+    <elementParameter xmi:id="_yCCEKH1PEeS-pMPTBcHrjw" field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter xmi:id="_yCCEKX1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\nProcesso de ETL &quot; + jobName + &quot; finalizado com sucesso!!!  \n&quot;);"/>
+    <elementParameter xmi:id="_yCCEKn1PEeS-pMPTBcHrjw" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_yCCEK31PEeS-pMPTBcHrjw" field="TEXT" name="LABEL" value="Mensagem Final"/>
+    <elementParameter xmi:id="_yCCELH1PEeS-pMPTBcHrjw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_yCCELX1PEeS-pMPTBcHrjw" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_yCCELn1PEeS-pMPTBcHrjw" field="MEMO" name="COMMENT" value="Componente responsável por imprimir a mensagem de término da execução do processo ETL."/>
+    <elementParameter xmi:id="_yCCEL31PEeS-pMPTBcHrjw" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_yCCEMH1PEeS-pMPTBcHrjw" connector="FLOW" name="tJava_3"/>
+  </node>
+  <connection xmi:id="_yCCEMX1PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter xmi:id="_yCCEMn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEM31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+    <elementParameter xmi:id="_yCCENH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCENX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCENn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEN31PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
+    <elementParameter xmi:id="_yCCEOH1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEOX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2"/>
+    <elementParameter xmi:id="_yCCEOn1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEO31PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEPH1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEPX1PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tJava_2">
+    <elementParameter xmi:id="_yCCEPn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEP31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4"/>
+    <elementParameter xmi:id="_yCCEQH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEQX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEQn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEQ31PEeS-pMPTBcHrjw" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_1">
+    <elementParameter xmi:id="_yCCERH1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCERX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3"/>
+    <elementParameter xmi:id="_yCCERn1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCER31PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCESH1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCESX1PEeS-pMPTBcHrjw" connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tFileExist_1">
+    <elementParameter xmi:id="_yCCESn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCES31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1"/>
+    <elementParameter xmi:id="_yCCETH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCETX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCETn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCET31PEeS-pMPTBcHrjw" connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileExist_1" target="tSendMail_2">
+    <elementParameter xmi:id="_yCCEUH1PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;)) == true"/>
+    <elementParameter xmi:id="_yCCEUX1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEUn1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="If1"/>
+    <elementParameter xmi:id="_yCCEU31PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEVH1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEVX1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEVn1PEeS-pMPTBcHrjw" connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileExist_1" target="tSendMail_1">
+    <elementParameter xmi:id="_yCCEV31PEeS-pMPTBcHrjw" field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;)) == false"/>
+    <elementParameter xmi:id="_yCCEWH1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEWX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="If2"/>
+    <elementParameter xmi:id="_yCCEWn1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEW31PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEXH1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEXX1PEeS-pMPTBcHrjw" connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSendMail_1" offsetLabelX="0" offsetLabelY="0" source="tSendMail_1" target="tJava_3">
+    <elementParameter xmi:id="_yCCEXn1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEX31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2"/>
+    <elementParameter xmi:id="_yCCEYH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEYX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEYn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEY31PEeS-pMPTBcHrjw" connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSendMail_2" offsetLabelX="0" offsetLabelY="0" source="tSendMail_2" target="tFileDelete_1">
+    <elementParameter xmi:id="_yCCEZH1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEZX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3"/>
+    <elementParameter xmi:id="_yCCEZn1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEZ31PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEaH1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_yCCEaX1PEeS-pMPTBcHrjw" connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileDelete_1" offsetLabelX="0" offsetLabelY="0" source="tFileDelete_1" target="tJava_3">
+    <elementParameter xmi:id="_yCCEan1PEeS-pMPTBcHrjw" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_yCCEa31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4"/>
+    <elementParameter xmi:id="_yCCEbH1PEeS-pMPTBcHrjw" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_yCCEbX1PEeS-pMPTBcHrjw" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_yCCEbn1PEeS-pMPTBcHrjw" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_yCCEb31PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEcH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter xmi:id="_yCCEcX1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEcn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEc31PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEdH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_2"/>
+    <elementParameter xmi:id="_yCCEdX1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEdn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEd31PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEeH1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tRunJob_3"/>
+    <elementParameter xmi:id="_yCCEeX1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEen1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEe31PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEfH1PEeS-pMPTBcHrjw" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_yCCEfX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter xmi:id="_yCCEfn1PEeS-pMPTBcHrjw" field="TEXT" name="SUBJOB_TITLE" value="Inicio"/>
+    <elementParameter xmi:id="_yCCEf31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEgH1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEgX1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEgn1PEeS-pMPTBcHrjw" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_yCCEg31PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_yCCEhH1PEeS-pMPTBcHrjw" field="TEXT" name="SUBJOB_TITLE" value="Fim"/>
+    <elementParameter xmi:id="_yCCEhX1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEhn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEh31PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEiH1PEeS-pMPTBcHrjw" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_yCCEiX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tPostjob_1"/>
+    <elementParameter xmi:id="_yCCEin1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter xmi:id="_yCCEi31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob xmi:id="_yCCEjH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEjX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileExist_1"/>
+    <elementParameter xmi:id="_yCCEjn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEj31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEkH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEkX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tSendMail_1"/>
+    <elementParameter xmi:id="_yCCEkn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEk31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCElH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCElX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tSendMail_2"/>
+    <elementParameter xmi:id="_yCCEln1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEl31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEmH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEmX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1"/>
+    <elementParameter xmi:id="_yCCEmn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEm31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_yCCEnH1PEeS-pMPTBcHrjw">
+    <elementParameter xmi:id="_yCCEnX1PEeS-pMPTBcHrjw" field="TEXT" name="UNIQUE_NAME" value="tJava_3"/>
+    <elementParameter xmi:id="_yCCEnn1PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_yCCEn31PEeS-pMPTBcHrjw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

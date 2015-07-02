@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_yGyoE31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_yGyoFH1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter xmi:id="_yGyoFX1PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" type="id_String" value="login@splendaconsult.com.br"/>
+    <contextParameter xmi:id="_yGyoFn1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" type="id_String" value="w4shington.mn@gmail.com"/>
+    <contextParameter xmi:id="_yGyoF31PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_yGyoGH1PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" type="id_String" value="587"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yGyoGX1PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_yGyoGn1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yGyoG31PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yGyoHH1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter xmi:id="_yGyoHX1PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" type="id_Password" value=""/>
+    <contextParameter xmi:id="_yGyoHn1PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_yGyoH31PEeS-pMPTBcHrjw" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_yGyoIH1PEeS-pMPTBcHrjw" comment="" name="host_email" prompt="host_email?" promptNeeded="false" type="id_String" value="mail-apl.serpro.gov.br"/>
+    <contextParameter xmi:id="_yGyoIX1PEeS-pMPTBcHrjw" comment="" name="remetente_email" prompt="remetente_email?" promptNeeded="false" type="id_String" value="rad.tac@planejamento.gov.br"/>
+    <contextParameter xmi:id="_yGyoIn1PEeS-pMPTBcHrjw" comment="" name="usuario_email" prompt="usuario_email?" promptNeeded="false" type="id_String" value="rad.tac@planejamento.gov.br"/>
+    <contextParameter xmi:id="_yGyoI31PEeS-pMPTBcHrjw" comment="" name="senha_email" prompt="senha_email?" promptNeeded="false" type="id_Password" value="fWMNjDzjJJlnfCuK2WnOUA=="/>
+    <contextParameter xmi:id="_yGyoJH1PEeS-pMPTBcHrjw" comment="" name="porta_email" prompt="porta_email?" promptNeeded="false" type="id_String" value="25"/>
+  </talendfile:ContextType>
+</xmi:XMI>
